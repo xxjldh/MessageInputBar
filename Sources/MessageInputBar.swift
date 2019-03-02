@@ -130,7 +130,7 @@ open class MessageInputBar: UIView {
             .configure {
                 $0.setSize(CGSize(width: 52, height: 36), animated: false)
                 $0.isEnabled = false
-                $0.title = "Send"
+                $0.title = "发送"
                 $0.titleLabel?.font = UIFont.systemFont(ofSize: 15, weight: .bold)
             }.onTouchUpInside {
                 $0.messageInputBar?.didSelectSendButton()
